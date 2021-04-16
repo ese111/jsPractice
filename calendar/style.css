@@ -32,4 +32,9 @@
 .sat{
     color: green;
 }
- 
+.item.day1{
+    color: red;
+}
+.item.day7{
+    color: seagreen;
+}
