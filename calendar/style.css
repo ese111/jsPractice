@@ -1,0 +1,35 @@
+.container {
+    background: beige;
+    height:80%;
+    display: flex;
+    flex-flow: row nowrap;
+    
+}
+
+.week {
+    background: beige;
+    height:80%;
+    display: flex;
+    flex-flow: row nowrap;
+} 
+.item {
+    width: 70px;
+    height: 40px;
+    background-color: peachpuff;
+    border: 1px solid black;
+    flex-grow: 1;
+}
+.day{
+    width: 70px;
+    height: 40px;
+    background-color: peachpuff;
+    border: 1px solid black;
+    flex-grow: 1;
+}
+.sun{
+    color: red;
+}
+.sat{
+    color: green;
+}
+ 

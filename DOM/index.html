@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="javascirpt1-dom.js"></script>
+</head>
+<body>
+    <section id="ex8">
+        <h1>Ex8-노드 삽입과 순회</h1>
+        <div>                
+            <input type="button" class="up-button" value="up" />                
+            <input type="button" class="down-button" value="down" />
+        </div>
+        <table border="1" class="notice-list">
+            <thead>
+                <tr>
+                    <td>번호</td>
+                    <td>제목</td>
+                    <td>작성일</td>
+                    <td>작성자</td>
+                    <td>조회수</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="background-color: skyblue;">
+                    <td>1</td>
+                    <td><a href="1">자바스크립트란..</a></td>
+                    <td>2019-01-25</td>
+                    <td>newlec</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="2">유투브에 끌려다니지 않으려고 했는데....ㅜㅜ..</a></td>
+                    <td>2019-01-25</td>
+                    <td>newlec</td>
+                    <td>0</td>
+                </tr>
+                <tr>                        
+                    <td>3</td>
+                    <td><a href="3">기본기가 튼튼해야....</a></td>                        <td>2019-01-25</td>
+                        <td>newlec</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td><a href="4">근데 조회수가 ㅜㅜ..</a></td>
+                        <td>2019-01-25</td>
+                        <td>newlec</td>
+                        <td>0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <hr />
+     <section id="ex7">
+        <h1>Ex7-노드 복제와 템플릿 태그</h1>
+        <div>                
+            <input type="button" class="clone-button" value="복제" />                
+            <input type="button" class="template-button" value="템플릿 복제" />
+        </div>
+        <table border="1" class="notice-list">
+            <thead>
+                <template>
+                    <tr>
+                        <td></td>
+                        <td><a href=""></a></td>
+                         <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>                    
+                </template>
+                    <tr>
+                        <td>번호</td>
+                        <td>제목</td>
+                        <td>작성일</td>
+                        <td>작성자</td>
+                        <td>조회수</td>
+                    </tr>
+            </thead>
+                <tbody>
+                <!-- <tr>
+                    <td>1</td>
+                    <td><a href="1">자바스크립트란..</a></td>
+                    <td>2019-01-25</td>
+                    <td>newlec</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="2">유투브에 끌려다니지 않으려고 했는데....ㅜㅜ..</a></td>
+                    <td>2019-01-25</td>
+                    <td>newlec</td>
+                    <td>0</td>
+                </tr>
+                <tr>                        
+                    <td>3</td>
+                    <td><a href="3">기본기가 튼튼해야....</a></td>                        <td>2019-01-25</td>
+                        <td>newlec</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td><a href="4">근데 조회수가 ㅜㅜ..</a></td>
+                        <td>2019-01-25</td>
+                        <td>newlec</td>
+                        <td>0</td>
+                    </tr>  -->
+                </tbody>
+        </table>
+    </section>
+    <hr />
+
+    <section id="ex6">
+        <h1>엘리먼트 노드 조작 메뉴 추가 예제 selector</h1>
+        <div>
+            <input class="title-input" name="title"/>
+            <input type="button" class="add-input" value="추가하기"/>
+            <input type="button" class="del-input" value="삭제하기"/>
+        </div>
+        <ul class="menu-list">
+            <li><a>aa</a></li>
+            <li><a>bb</a></li>
+        </ul>
+     </section>
+
+    <section id="ex5">
+        <h1>엘리먼트 노드의 속성 & css 속성 변경 예제4 selector</h1>
+        <div>
+            <input class="src-input" list="img-list"/>
+            <datalist id="img-list">
+                <option value="1.jpg">img1</option>
+                <option value="2.jpg">img2</option>
+                <option value="3.jpg">img3</option>
+            </datalist>
+            <select class="img-select">
+                <option value="1.jpg">img1</option>
+                <option value="2.jpg">img2</option>
+                <option value="3.jpg">img3</option>
+            </select>
+            <input type="color" class="color-input"/>
+            <input class="change" type="button" value="변경하기"/>
+        </div>
+        <div>
+            <img class="img" src="img/1.jpg" style="border:1px solid red;"/>
+        </div>
+     </section>
+
+    <section id="ex4">
+        <h1>childeNode를 이용한 노드선택 예제4 selector</h1>
+        <div class="box">
+            <input />
+            <input />
+        </div>
+     </section>
+
+    <section id="ex2">
+        <h1>계산기 예제3 selector</h1>
+        <div>
+            <input class="txt-x" type="text" value="0" dir="rtl"/>
+            +
+            <input class="txt-y" type="text" value="0" dir="rtl"/>
+            <input class="txt-add" type="button" value="="/>
+            <input class="txt-sum" type="text" value="0" readonly dir="rtl"/>
+        </div>
+     </section>
+
+    <section id="ex">
+        <h1>계산기 예제2</h1>
+        <div>
+            <input class="txt-x" type="text" value="0" dir="rtl"/>
+            +
+            <input class="txt-y" type="text" value="0" dir="rtl"/>
+            <input class="txt-add" type="button" value="="/>
+            <input class="txt-sum" type="text" value="0" readonly dir="rtl"/>
+        </div>
+     </section>
+
+     <section>
+        <h1>계산기 예제</h1>
+        <div>
+            <input id="txt-x" type="text" value="0" dir="rtl"/>
+            +
+            <input id="txt-y" type="text" value="0" dir="rtl"/>
+            <input id="txt-add" type="button" value="="/>
+            <input id="txt-sum" type="text" value="0" readonly dir="rtl"/>
+        </div>
+     </section>
+</body>
+</html>
