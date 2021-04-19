@@ -1,0 +1,27 @@
+.container {
+    height:80%;
+    display: flex;
+    flex-flow: row nowrap; 
+    border: 1px solid gray;
+}
+.item {
+    width: 70px;
+    height: 40px;
+    background-color: black;
+    /* border: 2px solid white; */
+    color: white;
+    flex-grow: 1;
+}
+.week{
+    border: 1px solid gray;
+    display: flex;
+    flex-flow: row nowrap; 
+}
+.day{
+    background-color: black;
+    /* border: 2px solid white; */
+    width: 70px;
+    height: 70px;
+    flex-grow: 1;
+    color: white;
+}
