@@ -1,5 +1,5 @@
 
-$(document).ready(function(){
+$(document).ready(function(){ 
     var today = new Date();
     var color = "rgb(0, 139, 139)";
     $.fn.mouse = function(){
