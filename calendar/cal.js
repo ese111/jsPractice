@@ -1,4 +1,3 @@
-
 window.addEventListener("load",function(){
     var today = new Date(); 
 
@@ -11,7 +10,6 @@ window.addEventListener("load",function(){
 
     var year = today.getFullYear(); // 년도
     var month = today.getMonth() + 1;  // 월
-    var now = today.getDate();
     date.value = year+" / " + month;
     build();
 
@@ -28,10 +26,7 @@ window.addEventListener("load",function(){
                 console.log("i= "+i+" j= "+j +" day1= "+day1);
                 if(j==day1&&cnt<=lastDate.getDate()){
                     divs[j].textContent = cnt;
-                    if(cnt==now){
-                        divs[j].style.color = "blue";
-                    }
-                    console.log('cnt= '+cnt+" div= "+divs[j].textContent);
+                   console.log('cnt= '+cnt+" div= "+divs[j].textContent);
                     cnt++;
                     day1++;
                 }

@@ -1,5 +1,5 @@
 .container {
-    background: beige;
+    background-color: #c5cae9;
     height:80%;
     display: flex;
     flex-flow: row nowrap;
@@ -7,7 +7,6 @@
 }
 
 .week {
-    background: beige;
     height:80%;
     display: flex;
     flex-flow: row nowrap;
@@ -16,25 +15,14 @@
     width: 70px;
     height: 40px;
     background-color: peachpuff;
-    border: 1px solid black;
     flex-grow: 1;
+    border: 0.5px double #80cbc4;
 }
-.day{
-    width: 70px;
-    height: 40px;
-    background-color: peachpuff;
-    border: 1px solid black;
-    flex-grow: 1;
-}
+
 .sun{
     color: red;
 }
+
 .sat{
-    color: green;
-}
-.item.day1{
-    color: red;
-}
-.item.day7{
-    color: seagreen;
+    color: rgb(69, 133, 235);
 }
