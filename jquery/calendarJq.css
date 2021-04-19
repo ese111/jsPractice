@@ -25,3 +25,9 @@
     flex-grow: 1;
     color: white;
 }
+.sun{
+    color: crimson;
+}
+.sat{
+    color: forestgreen;
+}
